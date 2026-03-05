@@ -1,0 +1,121 @@
+ *{
+      box-sizing: border-box;
+
+    }
+
+    body{
+       background-color: hsl(0, 0%, 8%);
+    }
+
+    .social-card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 10vh;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 2px grey;
+      /* padding: 0px; */
+      text-align: center;
+      background-color:  hsl(0, 0%, 12%)  ;
+      width: 450px;
+      margin-bottom: 5rem;
+
+    }
+
+    img{
+       border-radius: 60%; 
+       margin-top: 2rem;
+    } 
+
+
+    .social-head{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 33px;
+      color:  hsl(0, 0%, 100%);
+      
+    }
+
+    .social-location{
+      font-size: 19px;
+      margin-top: -20px;
+      color: hsl(75, 94%, 57%);
+    }
+
+    .social-quote{
+      margin-top: 2em;
+      font-family: Arial;
+      font-weight: bold;
+      color:  hsl(0, 0%, 100%);
+    }
+
+    .social-links{
+      display: grid;
+      grid-template-columns: auto;
+      gap: 1.8vh;
+      margin-top: 1em;
+      width: 340px;
+      padding-bottom: 30px;
+    }
+
+    a{
+      padding: 10px;
+      font-size: 19px ;
+      font-family: 'Segoe UI';
+      border: none;
+      border-radius: 5px;
+      color: inherit;
+      color: white;
+      text-decoration: none;
+      background-color: hsl(0, 0%, 20%);
+
+    }
+
+    a:hover{
+      background-color: hsl(75, 94%, 57%);
+      transition: 1;
+    }
+    
+    /* Media query */
+
+    @media screen and (max-width: 600px) {
+    .social-card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 10vh;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 2px grey;
+      /* padding: 0px; */
+      text-align: center;
+      background-color:  hsl(0, 0%, 12%);
+      width: 300px;
+      margin-bottom: 5rem;
+
+    }
+
+
+    .social-links{
+      display: grid;
+      grid-template-columns: auto;
+      /* gap: 1.8vh; */
+      margin-top: 1em;
+      width: 200px;
+      /* padding-bottom: 30px; */
+    }
+
+
+    .social-quote{
+      margin-top: 2em;
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 90%;
+      color:  hsl(0, 0%, 100%);
+    }
+
+    }
